@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* background image */
+body{
+    background-image: url("image.jfif");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+/* Main DIV */
+.box{
+    position:relative;
+    width: 100vw;
+    height:100vh;
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    height:25vh;
+    width: 90vw;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+span{
+    color:rgb(250, 0, 0);
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight:bolder;
+    font-size: larger;
+}
+
+nav ul li a:hover{
+    color:gold;
+}
+
+/* Details */
+
+.detail{
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+
+.user_photo{
+    border-radius: 200px;
+}
+
+.heading{
+    font-size: 40px; 
+}
+
+/* Footer */
+.footer{
+    width: 90vw;
+    height:25vh;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    padding: 91px 0px;
+    font-size: 50px;
+}
+
+div p a{
+    text-decoration: none;
+    color: black;
+    font-weight:bolder;
+}
+a:hover{
+        color:gold;
+        cursor: pointer;
+}
